@@ -1,3 +1,4 @@
-Enter an integer: 
-Sum of even digits: 10
-Sum of odd digits: 4
+*******
+ ***** 
+  ***  
+   *   
