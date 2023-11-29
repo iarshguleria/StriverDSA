@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+//        *       
+//       ***      
+//      *****     
+//     *******    
+//    *********   
+//   ***********  
+
 void pattern1(int n){
     for (int i = 0; i <n; i++)
     {
