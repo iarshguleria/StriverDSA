@@ -1,24 +1,15 @@
 #include <iostream>
-#include <math.h>
-#include <stdio.h>
 using namespace std;
 
-void armstrong(int n){
+void palindrome(int n){
 
     int count = 0;
-    int original =n;
-    int temp =n;
-    int numberofdigit = 0;
 
-    while(temp>0){
-        numberofdigit++;
-        temp = temp/10;
-    }
+    int original =n;
 
     while(n>0){
         int rev_digit = n%10;
-        int cube = pow(rev_digit, numberofdigit );
-        count = count + cube;
+        count = count *10 + rev_digit;
         n = n/10;
     }
     
@@ -35,7 +26,7 @@ int main() {
     int n;
     cin >> n;
 
-    armstrong(n);
+    palindrome(n);
 
     return 0;
 }
